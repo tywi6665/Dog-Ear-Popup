@@ -1,5 +1,5 @@
 {
-  "name": "dog-ear-popup",
+  "name": "og-ear-popup",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,12 +9,18 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
+    "firebase": "^7.21.0",
+    "moment": "^2.29.0",
+    "node-sass": "^4.14.1",
+    "react-responsive-masonry": "^2.1.0",
+    "react-show-more-text": "^1.4.4",
+    "reactjs-popup": "^2.0.4",
+    "socket.io-client": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +40,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.1.1",
+    "customize-cra": "^1.0.0",
+    "react-app-rewire-multiple-entry": "^2.2.0",
+    "react-app-rewired": "^2.1.6"
   }
 }
