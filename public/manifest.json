@@ -21,6 +21,5 @@
   "browser_action": {
     "default_icon": "./graphics/favicon.png",
     "default_popup": "popup.html"
-  },
-  "options_page": "index.html"
+  }
 }
